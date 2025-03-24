@@ -180,12 +180,15 @@
             { question: "移動的快鍵?", answer: "g" },
             { question: "旋轉快鍵是什麽?", answer: "r" },
             { question: "放大縮小?", answer: "s" },
-            { question: "加新物體?", answer: "shift a" }
+            { question: "加新物體?", answer: "shift a" },
+            { question: "重設3D光標位置?", answer: "shift c" },
+            { question: "擠出-Extrude快鍵係?", answer: "e" },
+            { question: "連接物體-Parent Objects快鍵是什麽?", answer: "ctrl p" },
         ];
 
         function generateFruitPosition() {
-            const x = Math.floor(Math.random() * 18 + 1) * 20;
-            const y = Math.floor(Math.random() * 18 + 1) * 20;
+            const x = Math.floor(Math.random() * 18 + 2) * 20;
+            const y = Math.floor(Math.random() * 18 + 2) * 20;
             return { x, y };
         }
 

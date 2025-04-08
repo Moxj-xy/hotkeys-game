@@ -177,14 +177,17 @@
         let score = 0;
 
         const questions = [
-            { question: "移動的快鍵?", answer: "g" },
-            { question: "旋轉快鍵是什麽?", answer: "r" },
-            { question: "放大縮小?", answer: "s" },
-            { question: "加新物體?", answer: "shift a" },
-            { question: "重設3D光標位置?", answer: "shift c" },
-            { question: "擠出-Extrude快鍵係?", answer: "e" },
-            { question: "連接物體-Parent Objects快鍵是什麽?", answer: "ctrl p" },
-        ];
+{ question: "移動的快鍵? What is the hotkey for Move/Grab?", answer: "g" },
+{ question: "透視模式快鍵係? Hotkey for X-ray Mode?", answer: "alt z" },
+{ question: "怎樣看到頂視圖? How do we get to the Top View", answer: "7" },    
+{ question: "旋轉快鍵是什麽 Hotkey for Rotation?", answer: "r" },
+{ question: "放大縮小? How do we scale the object", answer: "s" },
+{ question: "重設3D光標位置? How to reset cursor point?", answer: "shift c" },
+{ question: "擠出-Extrude快鍵係? Hotkey for extruding something?", answer: "e" },
+{ question: "加新物體? Adding a new object hotkey is?", answer: "shift a" },
+{ question: "連接物體-Parent Objects快鍵是什麽? How do we Parent Objects?", answer: "ctrl p" },
+{ question: "由物件模式去編輯模式要按什麽? Going from Object mode to Edit more, what do we press?", answer: "tab" },
+];
 
         function generateFruitPosition() {
             const x = Math.floor(Math.random() * 15 + 2) * 20;
